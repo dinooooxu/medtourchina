@@ -225,20 +225,26 @@ function About() {
           </div>
         </div>
 
-        <div className="bg-primary-600 text-white p-8 rounded-lg text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Ready to Start Your Journey?
-          </h2>
-          <p className="text-xl mb-6 text-primary-100">
-            Contact us today for a free consultation and personalized medical tourism plan
-          </p>
-          <a
-            href="/contact"
-            className="inline-block bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-primary-50 transition"
-          >
-            Get in Touch
-          </a>
-        </div>
+        <section className="py-24 bg-gradient-to-r from-blue-600 to-blue-800 text-white relative overflow-hidden rounded-2xl">
+          <div className="absolute inset-0 opacity-10">
+            <div className="absolute top-10 right-20 w-64 h-64 bg-white rounded-full blur-3xl"></div>
+            <div className="absolute bottom-10 left-20 w-80 h-80 bg-white rounded-full blur-3xl"></div>
+          </div>
+          <div className="container mx-auto px-4 text-center relative z-10">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              Ready to Start Your Journey?
+            </h2>
+            <p className="text-xl md:text-2xl mb-10 text-blue-100 max-w-2xl mx-auto">
+              Contact us today for a free consultation and personalized medical tourism plan
+            </p>
+            <a
+              href="/contact"
+              className="inline-block bg-white text-blue-600 px-12 py-4 rounded-xl font-bold text-lg hover:bg-blue-50 transition-all transform hover:scale-105 shadow-2xl"
+            >
+              Get in Touch
+            </a>
+          </div>
+        </section>
       </div>
     </div>
   )
