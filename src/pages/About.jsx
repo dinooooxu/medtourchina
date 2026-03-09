@@ -3,10 +3,10 @@ import React from 'react'
 function About() {
   const team = [
     {
-      name: 'Dr. Chen Wei',
+      name: 'Dr. Angela Xu',
       role: 'Medical Director',
       description: '20+ years of experience in international healthcare and medical tourism',
-      image: '👨‍⚕️'
+      image: '👩‍⚕️'
     },
     {
       name: 'Sarah Johnson',
